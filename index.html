@@ -43,8 +43,8 @@
 
 	<div class="row corpo-da-pagina">
 		<div class="col-lg-8">
+			<h2 class="text-center">Postagens</h2>
 			<section id="posts">
-				<h2 class="text-center">Postagens</h2>
 				<h3>Lorem Ipsum</h3>
 				<p>Data da Publicação: 08/12/2023</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel nisl purus. Suspendisse a sapien eu odio commodo facilisis. Integer congue mauris non fringilla pretium. Ut sed semper mi. Maecenas aliquet dictum ligula, ut auctor ex tempor eget. Curabitur vehicula ut mi varius auctor. Nullam quam ante, tincidunt eu urna ac, malesuada consequat leo. Etiam vestibulum pretium ante id sollicitudin. Vivamus sit amet metus quis ante tristique dignissim. Fusce sem leo, tempor tincidunt feugiat ac, accumsan eu lacus. Nulla id consectetur turpis. Proin imperdiet quam vitae nisl vestibulum finibus. Phasellus eu augue id odio gravida scelerisque quis quis erat.</p>
@@ -52,14 +52,18 @@
 			</section>
 
 			<section id="criar">
-				<h2>Adicionar novo Post</h2>
+				<h2 class="text-center">Adicionar novo Post</h2>
 				<form id="post-form">
-					<label for="post-title">Título:</label>
-					<input type="text" id="post-title" name="post-title" required>
-
-					<label for="post-content">Conteúdo:</label>
-					<textarea id="post-content" name="post-content" required></textarea>
-
+					<div>
+						<label for="post-title">Título:</label><br>
+						<input type="text" id="post-title" name="post-title" required>
+					</div>
+					
+					<div>
+						<label for="post-content">Conteúdo:</label><br>
+						<textarea id="post-content" name="post-content" required></textarea>
+					</div>
+					
 					<button type="button" id="publicar">Publicar</button>
 				</form>
 				

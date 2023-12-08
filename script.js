@@ -14,7 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
 			<p>${content}</p>
 		`;
 
-		document.getElementById('posts').appendChild(postElement);
+		// inserir o novo post no topo da lista de posts
+		const postsSection = document.getElementById('posts');
+		const firstPost = postsSection.firstChild;
+		postsSection.insertBefore(postElement, firstPost);
 
 		document.getElementById('post-form').reset();
 	}

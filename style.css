@@ -90,3 +90,17 @@ section {
 	padding: 2rem;
 }
 
+.post-form {
+	display:flex;
+	flex-direction: column;
+}
+
+#post-form input {
+	width: 100%;
+}
+
+#post-form textarea {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 15rem;
+}
