@@ -4,6 +4,7 @@
 	--azul-claro: #6F6BF2;
 	--amarelo: #F2C641;
 	--azul-escuro: #0511F2;
+	--laranja: #F29B30;
 
 	--fonte-principal: 'Hedvig Letters Sans', sans-serif;
 	--fonte-secundaria: 'Kalam', cursive;;
@@ -90,6 +91,13 @@ h1 {
 	
 }
 */
+
+.title-posts {
+	position: absolute;
+	top: -2%;
+	left: 40%;
+}
+
 .autor {
 	background-color: white;
 }
@@ -109,7 +117,7 @@ h1 {
 	padding: 1rem;
 }
 
-#posts, #criar, #sobre, #contato {
+#posts, #criar, #sobre {
 	margin: 5rem;
 	background-color: whitesmoke;
 	border-radius: 10px;
@@ -123,10 +131,21 @@ h1 {
 
 #post-form input {
 	width: 100%;
+
 }
 
 #post-form textarea {
 	min-width: 100%;
 	max-width: 100%;
 	min-height: 15rem;
+}
+
+.icone-contato {
+	font-size: 32px;
+	padding-bottom: 2rem;
+	color:var(--laranja);
+}
+
+#comentario {
+	min-width: 100%;
 }
