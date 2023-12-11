@@ -55,6 +55,7 @@
 body {
 	background-color: var(--azul-claro);
 	font-family: var(--fonte-principal);
+	cursor: url('img/cursor.png'), auto;
 }
 
 .hero-text {
@@ -82,27 +83,15 @@ body {
 	font-size: 2rem;
 }
 
-/*
-h1 {
-	display: block;
-	color: black;
-	margin-top: 6rem;
-	text-align: center;
-	
-}
-*/
-
 .title-posts {
 	position: absolute;
 	top: -2%;
-	left: 40%;
+	left: 50%;
+	transform: translate(-50%,0);
 }
 
 .autor {
 	background-color: white;
-}
-
-.autor {
 	display: flex;
 	flex-direction: column;
 	border-radius: 5px;
@@ -115,6 +104,12 @@ h1 {
 
 .autor p {
 	padding: 1rem;
+}
+
+.icone-contato {
+	font-size: 32px;
+	padding-bottom: 2rem;
+	color:var(--laranja);
 }
 
 #posts, #criar, #sobre {
@@ -140,12 +135,10 @@ h1 {
 	min-height: 15rem;
 }
 
-.icone-contato {
-	font-size: 32px;
-	padding-bottom: 2rem;
-	color:var(--laranja);
-}
-
 #comentario {
 	min-width: 100%;
+}
+
+a {
+	cursor: url('img/hover.png'), auto;
 }
